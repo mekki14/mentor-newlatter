@@ -1,4 +1,3 @@
-import React from 'react'
 import { CheckIcon, ContentWrapper, H1, MessageContainer, Para } from '../components/styledComponents'
 import { messageData } from '../data'
 import CustomButton from '../components/CustomButton'

@@ -1,7 +1,6 @@
-import React from 'react'
 import { Button, Para } from './styledComponents'
 
-const CustomButton = ({ title, onClick }) => {
+const CustomButton = ({ title, onClick }: { title: string, onClick: () => void }) => {
     return (
         <Button onClick={onClick}>
             <Para>{title}

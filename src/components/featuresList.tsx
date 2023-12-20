@@ -1,8 +1,7 @@
-import React from 'react'
 import FeatureElement from './featureElement'
 import { FeaturesContainer } from './styledComponents'
 
-const FeaturesList = ({ features }) => {
+const FeaturesList = ({ features }: { features: string[] }) => {
     return (
         <FeaturesContainer>
             {

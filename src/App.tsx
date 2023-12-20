@@ -1,6 +1,3 @@
-
-import styled from 'styled-components'
-
 import SignIn from './features/SignIn'
 import SuccessMessage from './features/SuccessMessage'
 import { Container } from './components/styledComponents'

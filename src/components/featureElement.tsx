@@ -1,8 +1,7 @@
-import React from 'react'
-import { FaCheckCircle } from "react-icons/fa";
+
 import { CheckIcon, SingleFeature } from './styledComponents';
 
-const FeatureElement = ({ feature }) => {
+const FeatureElement = ({ feature }: { feature: string }) => {
     return (
         <SingleFeature>
             <CheckIcon />
